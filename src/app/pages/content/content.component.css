@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+main{
+    margin-top: 150px;
+}
+.desction-personagem{
+    margin-left: 75px;
+}
+.gap{
+    gap: 25px;
+}
+.text-main-personagem{
+    width: 650px;
+    gap: 25px;
+}

@@ -1,1 +1,19 @@
-<p>content works!</p>
+<main class="flex center">
+    <section class="flex column text-main-personagem">
+        <h1>{{nomepersonagem}}</h1>
+        <p>{{bibliografia.intro}}</p>
+        <h1>historia de {{nomepersonagem}}</h1>
+        <p>{{bibliografia.historia}}</p>
+        <h1>aparencia de {{nomepersonagem}}</h1>
+        <p>{{bibliografia.aparencia}}</p>
+        <h1>Personalidade de {{nomepersonagem}}</h1>
+        <p>{{bibliografia.personalidade}}</p>
+        <h1>Curiosidades de {{nomepersonagem}}</h1>
+        <div class="flex column gap">
+            <p *ngFor="let item of curiosidades; let i = index">{{i + 1}} - {{item}}</p>
+        </div>
+    </section>
+    <section class="desction-personagem">
+        <app-card-contet id="{{pageid}}"/>
+    </section>
+</main>

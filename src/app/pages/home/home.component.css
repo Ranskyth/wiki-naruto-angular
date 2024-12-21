@@ -4,5 +4,30 @@ main{
 .container_cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 1rem;
+    row-gap: 2.15rem;
+    place-items: center;
+}
+@media screen and (max-width: 1700px){
+    main{
+        padding: 0 4rem;
+    }
+    .container_cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 1300px){
+    main{
+        padding: 0 2rem;
+    }
+    .container_cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px){
+    main{
+        padding: 0 1rem;
+    }
+    .container_cards{
+        grid-template-columns: 1fr;
+    }
 }

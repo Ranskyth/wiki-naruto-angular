@@ -1,0 +1,12 @@
+a{
+    color: black;
+}
+footer{
+    background-color: rgb(243, 243, 243);
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(233, 233, 233);
+}

@@ -1,9 +1,7 @@
 
 <main>
-    <app-header link1="Home" link2="Create Posts" link3="Contact"></app-header>
     <app-title-blog></app-title-blog>
     <div class="container_cards">
-        <app-card id="1" title="Card" decription="teste 123"></app-card>
-        <app-card id="1" title="Card" decription="teste 123"></app-card>
+        <app-card *ngFor="let i of [1,2,3,4,5,6,7,8]" id="{{i}}"></app-card>
     </div>
 </main>
