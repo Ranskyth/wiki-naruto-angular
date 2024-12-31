@@ -5,7 +5,7 @@ h1{
 input{
     height: 35px;
     width: 250px;
-    
+
 }
 button{
     height: 35px;
@@ -55,4 +55,19 @@ section{
     button{
         width: 20px;
     }
+}
+@media screen and (max-width: 620px){
+  h1{
+      font-size: 2rem;
+  }
+}
+@media screen and (max-width: 525px){
+  h1{
+      font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 455px){
+  section{
+    display: none;
+  }
 }
