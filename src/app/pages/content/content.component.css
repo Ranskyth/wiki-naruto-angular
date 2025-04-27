@@ -9,6 +9,7 @@
 }
 main{
     margin-top: 150px;
+    padding: 0 50px;
 }
 .desction-personagem{
     margin-left: 75px;
@@ -18,5 +19,24 @@ main{
 }
 .text-main-personagem{
     width: 650px;
-    gap: 25px;
+}
+
+.container-text-main{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+ 
+    }
+    
+    .text-main-personagem{
+        width: 100%;
+    }
+    .desction-personagem{
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
 }
