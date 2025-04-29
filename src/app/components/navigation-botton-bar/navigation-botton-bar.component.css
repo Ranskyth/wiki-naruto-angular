@@ -1,0 +1,24 @@
+.container-nav-bar{
+    display: none;
+    padding: 5px 25px;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.icon-button{
+    size: 12px;
+}
+
+button{
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 433px) {
+    .container-nav-bar{
+        display: flex;
+    }
+}

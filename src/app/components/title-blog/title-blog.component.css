@@ -2,19 +2,6 @@ h1{
     font-size: 5.5rem;
     font-weight: 700;
 }
-input{
-    height: 35px;
-    width: 250px;
-
-}
-button{
-    height: 35px;
-    width: 40px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 section{
     display: flex;
@@ -27,33 +14,15 @@ section{
     h1{
         font-size: 4.5rem;
     }
-    input{
-        width: 200px;
-    }
-    button{
-        width: 30px;
-    }
 }
 @media screen and (max-width: 1000px){
     h1{
         font-size: 3.5rem;
     }
-    input{
-        width: 150px;
-    }
-    button{
-        width: 25px;
-    }
 }
 @media screen and (max-width: 820px){
     h1{
         font-size: 2.5rem;
-    }
-    input{
-        width: 100px;
-    }
-    button{
-        width: 20px;
     }
 }
 @media screen and (max-width: 620px){

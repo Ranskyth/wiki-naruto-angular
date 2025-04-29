@@ -35,9 +35,7 @@ li a:hover{
     display: flex;
     align-items: center;
 }
-.menu-mobile{
-    display: none;
-}
+
 @media screen and (max-width: 1000px){
     .container_header header nav{
         padding: 0 2.25rem;
@@ -54,19 +52,4 @@ li a:hover{
     .menu-desktop{
         display: none;
     }
-    .menu-mobile{
-        display: block;
-        width: 35px;
-        height: 35px;
-    }
-    .menu-mobile img{
-        width: 100%;
-        height: 100%;
-    }
-    .container_menu_mobile{
-      display: flex;
-      justify-content: center;
-      width: 100vw;
-    }
-
 }
