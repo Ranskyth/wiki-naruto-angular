@@ -20,12 +20,12 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 Clone o repositório:
 ```bash
-git clone https://link-para-o-projeto
+git clone https://github.com/Ranskyth/wiki-naruto-angular.git
 ```
 
 Entre no diretório do projeto:
 ```bash
-cd solp-pet
+cd wiki-naruto-angular
 ```
 
 Instale as dependências:
