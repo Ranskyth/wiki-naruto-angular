@@ -1,6 +1,6 @@
 .container{
     max-width: 1920px;
-    margin: 0 auto 65px auto;
+    margin: 25px auto 65px auto;
 }
 @media screen and (max-width: 600px){
     app-footer{
