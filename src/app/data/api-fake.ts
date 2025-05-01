@@ -486,5 +486,518 @@ export const apiFake = [
             ocupacao: "Terceiro Hokage",
             familia: "Asuma Sarutobi (filho), Konohamaru Sarutobi (neto)"
         }
+    },
+    {
+        id: "19",
+        title: "Minato Namikaze",
+        description: "Minato foi o Quarto Hokage de Konoha, conhecido como o 'Relâmpago Amarelo da Folha'.",
+        img_card: "https://i.pinimg.com/originals/8e/83/1a/8e831a25dc4dbe689e489efa111fdfcf.gif",
+        bibliografia: {
+            intro: "Gênio do ninjutsu e inventor do Rasengan, Minato ficou famoso por sua velocidade inigualável.",
+            personalidade: "Calmo, inteligente e altruísta.",
+            aparencia: "Cabelos loiros espetados, manto branco com chamas e bandana de Konoha.",
+            historia: "Morreu protegendo a vila da Kyuubi, selando parte da besta dentro de seu filho, Naruto."
+        },
+        curiosidades: [
+            "Pai de Naruto Uzumaki.",
+            "Foi aluno de Jiraiya.",
+            "Criou a técnica de teletransporte Hiraishin no Jutsu."
+        ],
+        caracteristicas: {
+            idade: "24 (quando morreu)",
+            altura: "1,79m",
+            peso: "66,1kg",
+            tiposangue: "B",
+            classificacao: "Hokage",
+            cla: "Namikaze",
+            ocupacao: "Quarto Hokage",
+            familia: "Naruto Uzumaki (filho), Kushina Uzumaki (esposa)"
+        }
+    },
+    {
+        id: "20",
+        title: "Obito Uchiha",
+        description: "Obito foi um membro do clã Uchiha e o verdadeiro líder da Akatsuki por trás das sombras.",
+        img_card: "https://i.pinimg.com/originals/47/4e/74/474e74dd9f6a2e725b2ad21e888e1878.gif",
+        bibliografia: {
+            intro: "Originalmente um ninja bondoso, Obito se perdeu após presenciar a morte de Rin.",
+            personalidade: "Complexo, inicialmente ingênuo, mais tarde sombrio e manipulador.",
+            aparencia: "Máscara laranja (como Tobi), depois preta com Rinnegan e Sharingan.",
+            historia: "Foi manipulado por Madara Uchiha e se redimiu no final da Quarta Guerra Ninja."
+        },
+        curiosidades: [
+            "Era colega de equipe de Kakashi e Rin.",
+            "Desencadeou os eventos que levaram ao ataque da Kyuubi.",
+            "Desenvolveu o Mangekyō Sharingan com Kamui."
+        ],
+        caracteristicas: {
+            idade: "31 (aproximadamente na Quarta Guerra)",
+            altura: "1,82m",
+            peso: "70,3kg",
+            tiposangue: "O",
+            classificacao: "Criminel Rank S",
+            cla: "Uchiha",
+            ocupacao: "Membro da Akatsuki / Líder das sombras",
+            familia: "Desconhecida"
+        }
+    },
+    {
+        id: "21",
+        title: "Kisame Hoshigaki",
+        description: "Kisame foi um dos membros mais leais da Akatsuki e parceiro de Itachi Uchiha.",
+        img_card: "https://i.pinimg.com/originals/ff/ee/21/ffee21eebef84d8ef58451598c9eb13a.gif",
+        bibliografia: {
+            intro: "Conhecido como o 'Monstro da Névoa', Kisame era um ex-ninja da Vila da Névoa Oculta.",
+            personalidade: "Frio, brutal em combate, mas leal aos seus ideais.",
+            aparencia: "Pele azul, dentes afiados e Samehada nas costas.",
+            historia: "Morreu se sacrificando para proteger segredos da Akatsuki, preferindo o suicídio à captura."
+        },
+        curiosidades: [
+            "Empunhava a espada Samehada.",
+            "Tinha chakra quase tão grande quanto o de uma Bijuu.",
+            "Foi parceiro de Itachi por muitos anos."
+        ],
+        caracteristicas: {
+            idade: "32 (estimado)",
+            altura: "1,95m",
+            peso: "83,1kg",
+            tiposangue: "AB",
+            classificacao: "Nukenin",
+            cla: "Desconhecido",
+            ocupacao: "Membro da Akatsuki",
+            familia: "Desconhecida"
+        }
+    },
+    {
+        id: "22",
+        title: "Zetsu",
+        description: "Zetsu foi um membro enigmático da Akatsuki, dividido entre Zetsu Branco e Zetsu Negro.",
+        img_card: "https://i.pinimg.com/originals/ce/78/2f/ce782f5497207f487a44f0083f51b998.gif",
+        bibliografia: {
+            intro: "Criado por Kaguya Otsutsuki para garantir sua ressurreição, Zetsu manipulou eventos por eras.",
+            personalidade: "Zetsu Branco era brincalhão; Zetsu Negro, frio e calculista.",
+            aparencia: "Metade do corpo branco, metade negro, com planta saindo das costas.",
+            historia: "Revelado como o verdadeiro manipulador por trás da Akatsuki e da guerra ninja."
+        },
+        curiosidades: [
+            "Zetsu Negro é literalmente a vontade de Kaguya.",
+            "Serviu como espião e transportador de corpos.",
+            "Foi quem corrompeu Madara com o plano do Tsukuyomi Infinito."
+        ],
+        caracteristicas: {
+            idade: "Desconhecida",
+            altura: "1,77m",
+            peso: "54,8kg",
+            tiposangue: "Desconhecido",
+            classificacao: "Espião",
+            cla: "Nenhum",
+            ocupacao: "Membro da Akatsuki",
+            familia: "Criado por Kaguya Otsutsuki"
+        }
+    },
+    {
+        id: "23",
+        title: "Orochimaru",
+        description: "Orochimaru é um dos lendários Sannin, obcecado pela imortalidade e pelo conhecimento.",
+        img_card: "https://i.pinimg.com/originals/b7/59/7e/b7597ede318797e984473027274d55a1.gif",
+        bibliografia: {
+            intro: "Ex-membro de Konoha, desertou após experiências proibidas com jutsus.",
+            personalidade: "Frio, curioso e calculista, mas complexo e capaz de mudança.",
+            aparencia: "Cabelos longos pretos, pele pálida e olhos reptilianos.",
+            historia: "Após muitos crimes, eventualmente se redimiu parcialmente e ajudou na guerra."
+        },
+        curiosidades: [
+            "Desejava aprender todos os jutsus do mundo.",
+            "Foi mestre de Sasuke por um tempo.",
+            "Sobreviveu à própria morte diversas vezes trocando de corpo."
+        ],
+        caracteristicas: {
+            idade: "Desconhecida (mais de 50)",
+            altura: "1,79m",
+            peso: "63,9kg",
+            tiposangue: "B",
+            classificacao: "Nukenin",
+            cla: "Desconhecido",
+            ocupacao: "Pesquisador / Ex-membro da Akatsuki",
+            familia: "Mitsuki (criação artificial)"
+        }
+    },
+    {
+        id: "24",
+        title: "Rin Nohara",
+        description: "Rin foi uma kunoichi de Konoha e membro do time de Kakashi e Obito.",
+        img_card: "https://i.pinimg.com/originals/3c/cd/c2/3ccdc279f421aa4db1390e5bd180e272.gif",
+        bibliografia: {
+            intro: "Doce e leal, Rin era médica-ninja e tinha um papel importante em sua equipe.",
+            personalidade: "Gentil, carinhosa e corajosa.",
+            aparencia: "Cabelos castanhos curtos, marca roxa nas bochechas.",
+            historia: "Morreu tragicamente após ser usada como receptáculo da Sanbi pelos inimigos."
+        },
+        curiosidades: [
+            "Sua morte desencadeou a queda de Obito.",
+            "Era apaixonada por Kakashi.",
+            "Foi usada pela Névoa Oculta como arma contra Konoha."
+        ],
+        caracteristicas: {
+            idade: "13 (estimado na morte)",
+            altura: "1,43m",
+            peso: "39,1kg",
+            tiposangue: "A",
+            classificacao: "Chunin",
+            cla: "Desconhecido",
+            ocupacao: "Ninja médica",
+            familia: "Desconhecida"
+        }
+    },
+    {
+        id: "25",
+        title: "Konohamaru Sarutobi",
+        description: "Konohamaru é neto de Hiruzen Sarutobi e discípulo de Naruto Uzumaki.",
+        img_card: "https://i.pinimg.com/originals/94/86/d0/9486d0bd64cf8d0be04d09060e7deab2.gif",
+        bibliografia: {
+            intro: "Determinado a se tornar Hokage, Konohamaru cresceu imitando Naruto.",
+            personalidade: "Orgulhoso, determinado e leal.",
+            aparencia: "Cabelos castanhos, óculos na infância, faixa de Konoha na testa.",
+            historia: "Tornou-se jonin e líder do Time 7 na nova geração."
+        },
+        curiosidades: [
+            "Aprendeu o Rasengan com Naruto.",
+            "Usou o Sexy no Jutsu desde criança.",
+            "Inspirou-se fortemente em seu avô e em Naruto."
+        ],
+        caracteristicas: {
+            idade: "27 (em Boruto)",
+            altura: "1,75m (estimado adulto)",
+            peso: "65kg (estimado)",
+            tiposangue: "B",
+            classificacao: "Jonin",
+            cla: "Sarutobi",
+            ocupacao: "Líder de esquadrão",
+            familia: "Hiruzen Sarutobi (avô), Asuma (tio), Mirai (prima)"
+        }
+    },
+    {
+        id: "26",
+        title: "Shikamaru Nara",
+        description: "Shikamaru é um dos ninjas mais inteligentes de Konoha, mestre em estratégias.",
+        img_card: "https://i.pinimg.com/originals/b2/9c/e8/b29ce858310533c7c617894181f8bf68.gif",
+        bibliografia: {
+            intro: "Mesmo preguiçoso, Shikamaru se destacou em batalhas com sua mente afiada.",
+            personalidade: "Preguiçoso, analítico e extremamente leal.",
+            aparencia: "Cabelo preso em rabo de cavalo, sempre com expressão entediada.",
+            historia: "Tornou-se o conselheiro do Hokage e braço direito de Naruto."
+        },
+        curiosidades: [
+            "Derrotou Hidan com uma armadilha genial.",
+            "Foi o primeiro da sua geração a virar Chunin.",
+            "É um dos poucos que entendem Naruto completamente."
+        ],
+        caracteristicas: {
+            idade: "32 (em Boruto)",
+            altura: "1,72m",
+            peso: "53,4kg",
+            tiposangue: "AB",
+            classificacao: "Chunin / Conselheiro",
+            cla: "Nara",
+            ocupacao: "Estrategista-chefe de Konoha",
+            familia: "Shikaku (pai), Yoshino (mãe), Temari (esposa), Shikadai (filho)"
+        }
+    },
+    {
+        id: "27",
+        title: "Hidan",
+        description: "Hidan é um membro da Akatsuki, conhecido por sua imortalidade e suas técnicas cruéis baseadas em rituais religiosos.",
+        img_card: "https://i.pinimg.com/originals/f2/11/93/f2119387324e18af1b080afed8fac5fa.gif",
+        bibliografia: {
+            intro: "Hidan é um dos vilões mais implacáveis da Akatsuki, com habilidades baseadas em um ritual de imortalidade.",
+            personalidade: "Sádico, irreverente e totalmente obcecado por sua fé.",
+            aparencia: "Tem cabelos brancos, olhos vermelhos e usa uma capa preta da Akatsuki com uma cruz no pescoço.",
+            historia: "Hidan busca trazer destruição e sofrimento, sendo um dos membros mais violentos da Akatsuki."
+        },
+        curiosidades: [
+            "Hidan é imortal devido ao seu ritual de invocação.",
+            "Ele é obcecado por sua religião e vê a morte como uma forma de sacrifício.",
+            "Sua principal técnica envolve infligir dor ao oponente ao fazer um sacrifício em sua própria carne."
+        ],
+        caracteristicas: {
+            idade: "32",
+            altura: "1,77m",
+            peso: "60kg",
+            tiposangue: "AB",
+            classificacao: "Membro da Akatsuki",
+            cla: "Não tem clã",
+            ocupacao: "Nukenin",
+            familia: "Não possui"
+        }
+    },
+    {
+        id: "29",
+        title: "Deidara",
+        description: "Deidara foi um membro da Akatsuki, mestre das explosões com argila.",
+        img_card: "https://i.pinimg.com/originals/d2/06/88/d2068872e2c42829057779ca8a7f7776.gif",
+        bibliografia: {
+            intro: "Deidara é um artista ninja da Akatsuki, especializado em criar explosões com argila.",
+            personalidade: "Orgulhoso e muito vaidoso de sua arte, acredita que tudo é arte, especialmente suas explosões.",
+            aparencia: "Cabelos loiros e olhos azuis, usa uma capa preta com nuvens vermelhas da Akatsuki.",
+            historia: "Deidara vê a explosão como uma forma de arte, e sua principal habilidade é usar argila explosiva em combate."
+        },
+        curiosidades: [
+            "Deidara possui um talento natural para criar explosões com argila.",
+            "Ele é conhecido por sua frase: 'Arte é uma explosão!'",
+            "Sua técnica é baseada em explosões criadas com argila que ele modela como criaturas."
+        ],
+        caracteristicas: {
+            idade: "19",
+            altura: "1,64m",
+            peso: "53kg",
+            tiposangue: "AB",
+            classificacao: "Membro da Akatsuki",
+            cla: "Não possui",
+            ocupacao: "Nukenin, artista ninja",
+            familia: "Não possui"
+        }
+    },
+    {
+        id: "30",
+        title: "Killer Bee",
+        description: "Killer Bee é o Jinchūriki da Besta com Oito Caudas, Gyūki, e é um dos ninjas mais poderosos de Kumogakure.",
+        img_card: "https://i.pinimg.com/originals/27/8a/8e/278a8eb74643b4c03a0b2d928e4fd19b.gif",
+        bibliografia: {
+            intro: "Killer Bee é o Jinchūriki da Besta com Oito Caudas, sendo também um mestre em combate com espadas.",
+            personalidade: "Descontraído, bem-humorado e sempre com uma postura positiva, tem um estilo único de rap.",
+            aparencia: "Tem cabelos prateados e uma grande quantidade de tatuagens no corpo, usa espadas duplas.",
+            historia: "Killer Bee é um dos personagens mais habilidosos da série, lutando com destreza e possuindo uma relação simbiótica com a Besta com Oito Caudas."
+        },
+        curiosidades: [
+            "Killer Bee tem uma amizade profunda com a Besta com Oito Caudas, Gyūki.",
+            "Ele é o único Jinchūriki que conseguiu controlar completamente a besta dentro de si.",
+            "É conhecido por suas batalhas impressionantes e por sua habilidade de improvisar em combate."
+        ],
+        caracteristicas: {
+            idade: "35",
+            altura: "1,85m",
+            peso: "79kg",
+            tiposangue: "AB",
+            classificacao: "Jinchūriki, líder de Kumogakure",
+            cla: "Kumogakure",
+            ocupacao: "Jinchūriki da Besta com Oito Caudas",
+            familia: "Não possui"
+        }
+    },
+    {
+        id: "31",
+        title: "Mei Terumi",
+        description: "Mei Terumi foi a Quinta Mizukage da Vila Oculta da Névoa.",
+        img_card: "https://i.pinimg.com/originals/4d/f9/9b/4df99b92a3f4b440e59d45661b9a6c57.gif",
+        bibliografia: {
+            intro: "Mei Terumi é a Quinta Mizukage de Kirigakure, sendo uma das ninjas mais poderosas da história da vila.",
+            personalidade: "Mei é uma líder carismática, gentil, mas com grande força em combate.",
+            aparencia: "Ela tem cabelos vermelhos e usa um vestido verde com a capa de Mizukage.",
+            historia: "Mei Terumi é conhecida por sua habilidade com técnicas de lava e névoa, além de ser uma das maiores líderes de Kiri."
+        },
+        curiosidades: [
+            "Mei Terumi é uma das poucas ninjas que domina técnicas de lava e vapor.",
+            "Ela foi escolhida como Mizukage após a queda do regime cruel anterior de Kirigakure.",
+            "Mei é conhecida por seu charme, mas também por sua força em combate."
+        ],
+        caracteristicas: {
+            idade: "30",
+            altura: "1,60m",
+            peso: "50kg",
+            tiposangue: "O",
+            classificacao: "Mizukage",
+            cla: "Terumi",
+            ocupacao: "Mizukage de Kirigakure",
+            familia: "Não possui"
+        }
+    },
+    {
+        id: "32",
+        title: "Asuma Sarutobi",
+        description: "Asuma Sarutobi foi um ninja de Konoha e membro do time 10, sendo também filho do Terceiro Hokage.",
+        img_card: "https://i.pinimg.com/originals/33/5f/27/335f27c2701d5733abf6d8a52a05802f.gif",
+        bibliografia: {
+            intro: "Asuma foi um dos shinobi mais habilidosos de Konoha, mestre de Shikamaru, Ino e Choji.",
+            personalidade: "Forte, mas com um temperamento mais tranquilo e reflexivo.",
+            aparencia: "Cabelos escuros e barba, com uma postura descontraída e sempre com um cigarro.",
+            historia: "Asuma teve uma morte trágica nas mãos de Hidan, que impactou profundamente seus alunos."
+        },
+        curiosidades: [
+            "Asuma é filho do Terceiro Hokage, Hiruzen Sarutobi.",
+            "Ele era fumante e sempre aparecia com um cigarro.",
+            "Asuma usava uma espada como sua principal arma de combate."
+        ],
+        caracteristicas: {
+            idade: "27",
+            altura: "1,82m",
+            peso: "75kg",
+            tiposangue: "B",
+            classificacao: "Jonin",
+            cla: "Sarutobi",
+            ocupacao: "Jonin de Konoha",
+            familia: "Hiruzen Sarutobi (pai), Konohamaru Sarutobi (sobrinho)"
+        }
+    },
+    {
+        id: "33",
+        title: "Iruka Umino",
+        description: "Iruka Umino é um instrutor ninja de Konoha, conhecido por ser um dos primeiros a acreditar em Naruto.",
+        img_card: "https://i.pinimg.com/originals/63/0d/69/630d69b03c31be9e16c58a9f90e06b9e.gif",
+        bibliografia: {
+            intro: "Iruka é um dos instrutores mais importantes para a formação de Naruto, ajudando a moldar sua determinação.",
+            personalidade: "Gentil, preocupado com seus alunos e com grande espírito de professor.",
+            aparencia: "Cabelos castanhos e uma cicatriz na testa, normalmente usa uma faixa de ninja.",
+            historia: "Iruka perdeu seus pais em uma missão, o que o tornou uma figura protetora para Naruto."
+        },
+        curiosidades: [
+            "Iruka é um dos primeiros a tratar Naruto com respeito.",
+            "Ele foi designado para ser o primeiro mentor de Naruto.",
+            "Tem uma cicatriz característica na testa, lembrança do dia em que perdeu seus pais."
+        ],
+        caracteristicas: {
+            idade: "26",
+            altura: "1,76m",
+            peso: "69kg",
+            tiposangue: "O",
+            classificacao: "Chunin",
+            cla: "Umino",
+            ocupacao: "Instrutor ninja de Konoha",
+            familia: "Pais falecidos"
+        }
+    },
+    {
+        id: "34",
+        title: "Ino Yamanaka",
+        description: "Ino Yamanaka é uma ninja de Konoha especializada em técnicas de controle mental.",
+        img_card: "https://i.pinimg.com/originals/a5/a5/45/a5a545b63f6e69b4774934adf7998ff9.gif",
+        bibliografia: {
+            intro: "Ino é uma das principais ninjas do time 10, amiga de Sakura e especializada em jutsu de controle mental.",
+            personalidade: "Confiante, competitiva, mas com grande lealdade e dedicação aos seus amigos.",
+            aparencia: "Cabelos loiros e olhos azuis, frequentemente vestindo roupas tradicionais de Konoha.",
+            historia: "Ino cresceu com o desejo de superar Sakura e se tornou uma das ninjas mais poderosas de sua geração."
+        },
+        curiosidades: [
+            "Ino é especialista no jutsu de manipulação mental e pode controlar corpos.",
+            "Ela tem uma relação próxima com Sakura e sempre trabalhou para se destacar.",
+            "Tem uma rivalidade amigável com Sakura, mas ambas têm um grande respeito uma pela outra."
+        ],
+        caracteristicas: {
+            idade: "16",
+            altura: "1,58m",
+            peso: "47kg",
+            tiposangue: "O",
+            classificacao: "Chunin",
+            cla: "Yamanaka",
+            ocupacao: "Ninja de Konoha",
+            familia: "Inoichi Yamanaka (pai)"
+        }
+    },
+    {
+        id: "35",
+        title: "Kiba Inuzuka",
+        description: "Kiba Inuzuka é um ninja de Konoha especializado em técnicas de combate com animais, acompanhado de seu parceiro Akamaru.",
+        img_card: "https://i.pinimg.com/originals/d7/0a/ab/d70aab3e290351eeb7b10468ab0ae8d4.gif",
+        bibliografia: {
+            intro: "Kiba é um ninja da vila de Konoha, conhecido por sua relação inseparável com seu cachorro Akamaru.",
+            personalidade: "Confiante, um pouco arrogante, mas com um grande coração e lealdade aos seus amigos.",
+            aparencia: "Cabelos castanhos e olhos vermelhos, usa uma bandana de Konoha e sempre tem Akamaru ao seu lado.",
+            historia: "Kiba é um membro do time 8, sempre lutando ao lado de sua fiel companheira Akamaru."
+        },
+        curiosidades: [
+            "Kiba tem uma conexão muito forte com seu cachorro Akamaru, com quem forma uma dupla imbatível.",
+            "Ele é especializado em técnicas de combate corpo a corpo e também utiliza o 'Inuzuka Jutsu'.",
+            "Seu cheiro aguçado é uma habilidade característica de seu clã."
+        ],
+        caracteristicas: {
+            idade: "16",
+            altura: "1,61m",
+            peso: "53kg",
+            tiposangue: "O",
+            classificacao: "Genin",
+            cla: "Inuzuka",
+            ocupacao: "Ninja de Konoha",
+            familia: "Kiba Inuzuka (mãe)"
+        }
+    },
+    {
+        id: "36",
+        title: "Shino Aburame",
+        description: "Shino Aburame é um ninja de Konoha que utiliza insetos como suas principais armas em combate.",
+        img_card: "https://i.pinimg.com/originals/6a/0d/3a/6a0d3a6e568eeb9f0f5a97cfd44a9c4b.gif",
+        bibliografia: {
+            intro: "Shino é um membro do time 8 de Konoha, um ninja calmo e sério que usa insetos para lutar.",
+            personalidade: "Sério, quieto, mas com uma grande habilidade em manipulação de insetos.",
+            aparencia: "Usa óculos escuros e tem um semblante sempre calmo, com roupas tradicionais de Konoha.",
+            historia: "Shino se tornou um ninja poderoso utilizando sua habilidade com insetos, seguindo a tradição de seu clã."
+        },
+        curiosidades: [
+            "Shino pertence ao clã Aburame, famoso por utilizar insetos para diversos fins, incluindo espionagem e ataque.",
+            "Ele raramente demonstra suas emoções, mantendo sempre uma aparência fria e reservada.",
+            "Shino é extremamente habilidoso no controle dos insetos e é considerado um dos ninjas mais inteligentes de sua geração."
+        ],
+        caracteristicas: {
+            idade: "16",
+            altura: "1,67m",
+            peso: "50kg",
+            tiposangue: "B",
+            classificacao: "Genin",
+            cla: "Aburame",
+            ocupacao: "Ninja de Konoha",
+            familia: "Não possui informações sobre sua família."
+        }
+    },
+    {
+        id: "37",
+        title: "Tenten",
+        description: "Tenten é uma ninja de Konoha, especializada em armas e técnicas de longo alcance.",
+        img_card: "https://i.pinimg.com/originals/7e/57/a6/7e57a670bd7a22652ff0725197b577ad.gif",
+        bibliografia: {
+            intro: "Tenten é uma das ninjas mais habilidosas de Konoha em manipular armas, sendo um membro do time 10.",
+            personalidade: "Determinada e focada, Tenten é uma ninja com grande potencial em combate à distância.",
+            aparencia: "Cabelos castanhos, presa em um coque, usa roupas tradicionais de Konoha.",
+            historia: "Tenten cresceu com o sonho de se tornar uma mestre em armas, e se uniu ao time de Neji e Lee."
+        },
+        curiosidades: [
+            "Tenten é especialista no uso de diversas armas, incluindo shurikens e kunais.",
+            "Ela tem uma relação de amizade muito próxima com Neji e Lee.",
+            "Tenten é uma das poucas personagens femininas que se destaca nas artes de combate com armas."
+        ],
+        caracteristicas: {
+            idade: "16",
+            altura: "1,55m",
+            peso: "45kg",
+            tiposangue: "O",
+            classificacao: "Genin",
+            cla: "Não tem clã específico",
+            ocupacao: "Ninja de Konoha",
+            familia: "Não há informações sobre sua família."
+        }
+    },
+    {
+        id: "38",
+        title: "Anko Mitarashi",
+        description: "Anko Mitarashi é uma ninja de Konoha e uma ex-aprendiz de Orochimaru.",
+        img_card: "https://i.pinimg.com/originals/0f/d2/6d/0fd26d7a87785b8b090c7895f648397d.gif",
+        bibliografia: {
+            intro: "Anko foi uma discípula de Orochimaru, sendo marcada por ele com uma maldição.",
+            personalidade: "Brusca, mas com um grande senso de justiça, com traumas de seu passado.",
+            aparencia: "Possui cabelos castanhos curtos e uma marca de maldição no pescoço.",
+            historia: "Após ser traída por Orochimaru, Anko se tornou uma ninja de Konoha e uma instrutora de equipes."
+        },
+        curiosidades: [
+            "Anko possui a marca de maldição de Orochimaru em seu corpo.",
+            "Ela tem uma relação difícil com seu passado e com a perda de sua confiança em Orochimaru.",
+            "Anko foi uma das únicas que sabia dos planos de Orochimaru enquanto ele ainda estava em Konoha."
+        ],
+        caracteristicas: {
+            idade: "26",
+            altura: "1,63m",
+            peso: "47kg",
+            tiposangue: "B",
+            classificacao: "Jonin",
+            cla: "Mitarashi",
+            ocupacao: "Ninja de Konoha, Instrutora",
+            familia: "Não há informações sobre sua família."
+        }
     }
 ];
