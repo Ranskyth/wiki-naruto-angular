@@ -18,7 +18,7 @@ export const routes: Routes = [
     path: 'posts',
     component: PostsComponent,
   },
-    {
+  {
     path: 'posts/:id',
     component: PostDetailsComponent,
   },

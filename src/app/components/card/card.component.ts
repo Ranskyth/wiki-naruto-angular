@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css'], 
+  styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
   @Input() id!: number;

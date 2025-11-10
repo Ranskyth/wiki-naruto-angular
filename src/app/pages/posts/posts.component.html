@@ -19,9 +19,9 @@
         <div class="post-footer">
           <div class="author">{{ post.author }}</div>
           <div class="clan" *ngIf="post.clan">Clã: {{ post.clan }}</div>
-         <button class="read-btn" [routerLink]="['/posts', post.id]">Ler</button>
-
-
+          <button class="read-btn" [routerLink]="['/posts', post.id]">
+            Ler
+          </button>
         </div>
       </div>
     </article>

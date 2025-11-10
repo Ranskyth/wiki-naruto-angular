@@ -8,16 +8,15 @@ import { fakePosts } from '../data/posts-fakes';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './post-details.component.html',
-  styleUrls: ['./post-details.component.css']
+  styleUrls: ['./post-details.component.css'],
 })
 export class PostDetailsComponent implements OnInit {
-
   post: any = null;
   notFound = false;
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
   ) {}
 
   ngOnInit(): void {
@@ -29,7 +28,7 @@ export class PostDetailsComponent implements OnInit {
       return;
     }
 
-    this.post = fakePosts.find(p => Number(p.id) === id);
+    this.post = fakePosts.find((p) => Number(p.id) === id);
 
     if (!this.post) {
       this.notFound = true;

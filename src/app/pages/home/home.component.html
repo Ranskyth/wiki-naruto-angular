@@ -3,29 +3,22 @@
     <h1>Naruto Wiki</h1>
 
     <div>
-      <input 
-        type="text" 
-        placeholder="Pesquise aqui"
-        [(ngModel)]="search"
-      />
+      <input type="text" placeholder="Pesquise aqui" [(ngModel)]="search" />
 
-      <button><img src="./icons/search.svg" alt=""></button>
-      
-   
+      <button><img src="./icons/search.svg" alt="" /></button>
 
-          <select [(ngModel)]="selectedClan">
-            <option value="">Todos os Clãs</option>
-            <option *ngFor="let clan of clans" [value]="clan">
-              {{ clan }}
-            </option>
-          </select>
-
+      <select [(ngModel)]="selectedClan">
+        <option value="">Todos os Clãs</option>
+        <option *ngFor="let clan of clans" [value]="clan">
+          {{ clan }}
+        </option>
+      </select>
     </div>
   </section>
 
   <div class="container_cards">
     <app-card
-      *ngFor="let item of filteredApi" 
+      *ngFor="let item of filteredApi"
       [id]="item.id"
       [title]="item.title"
       [decription]="item.description"
