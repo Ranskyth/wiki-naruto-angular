@@ -1,0 +1,40 @@
+<section class="akatsuki-page" *ngIf="!notFound; else notFoundTpl">
+  <div class="topbar">
+    <button class="back" (click)="goBack()">← Voltar</button>
+
+    <div class="meta">
+      <span class="clan-badge" *ngIf="post?.clan">Clã: {{ post.clan }}</span>
+      <span class="date">{{ post?.date }}</span>
+    </div>
+  </div>
+
+  <header class="hero" *ngIf="post">
+    <h1 class="title">{{ post.title }}</h1>
+
+    <div class="sub">
+      <span class="author">Por {{ post.author }}</span>
+      <span class="dot">•</span>
+
+      <span class="tags" *ngIf="post.tags?.length">
+        <span class="tag" *ngFor="let t of post.tags">{{ t }}</span>
+      </span>
+    </div>
+  </header>
+
+  <div class="banner" *ngIf="post?.img">
+    <img [src]="post.img" [alt]="post.title" />
+    <div class="chakra-overlay"></div>
+  </div>
+
+  <article class="content" *ngIf="post">
+    <div [innerHTML]="post.content || '<p>' + post.excerpt + '</p>'"></div>
+  </article>
+</section>
+
+<ng-template #notFoundTpl>
+  <section class="not-found">
+    <h2>Post não encontrado</h2>
+    <p>O post que você tentou abrir não existe ou foi removido.</p>
+    <button (click)="goBack()">Voltar aos posts</button>
+  </section>
+</ng-template>

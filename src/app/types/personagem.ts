@@ -1,13 +1,13 @@
 export interface IPersonagem {
-  id: string;
+  id: string | any;
   title: string;
   description: string;
   img_card: string;
   bibliografia: {
-    intro:string;
-    personalidade:string;
-    aparencia:string;
-    historia:string;
+    intro: string;
+    personalidade: string;
+    aparencia: string;
+    historia: string;
   };
   curiosidades: string[];
   caracteristicas: {
@@ -22,9 +22,9 @@ export interface IPersonagem {
   };
 }
 
-export interface IBibliografia{
-    intro:string;
-    personalidade:string;
-    aparencia:string;
-    historia:string;
+export interface IBibliografia {
+  intro: string;
+  personalidade: string;
+  aparencia: string;
+  historia: string;
 }

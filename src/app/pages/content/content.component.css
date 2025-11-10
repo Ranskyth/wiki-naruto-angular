@@ -1,46 +1,106 @@
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.center{
-    justify-content: center;
+.center {
+  justify-content: center;
 }
-.column{
-    flex-direction: column;
-}
-main{
-    padding: 0 50px;
-    margin-top: 150px;
-}
-.desction-personagem{
-    margin-left: 75px;
-}
-.gap{
-    gap: 25px;
-}
-.text-main-personagem{
-    width: 650px;
+.column {
+  flex-direction: column;
 }
 
-.container-text-main{
+main {
+  padding: 0 50px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.fade-page {
+  animation: fadePage 0.6s ease-in-out;
+}
+.fade-left {
+  animation: fadeLeft 0.9s ease-in-out;
+}
+.fade-right {
+  animation: fadeRight 0.9s ease-in-out;
+}
+.fade-text {
+  animation: fadeUp 0.9s ease-in-out;
+}
+
+.chakra-title {
+  animation: chakraText 1s ease-in-out;
+}
+.chakra-subtitle {
+  animation: chakraText 1.2s ease-in-out;
+}
+
+.curiosidades-list .curiosidade-item {
+  opacity: 0;
+  animation: fadeUp 0.7s ease-in-out forwards;
+}
+.curiosidades-list .curiosidade-item:nth-child(1) { animation-delay: 0.1s; }
+.curiosidades-list .curiosidade-item:nth-child(2) { animation-delay: 0.2s; }
+.curiosidades-list .curiosidade-item:nth-child(3) { animation-delay: 0.3s; }
+.curiosidades-list .curiosidade-item:nth-child(4) { animation-delay: 0.4s; }
+.curiosidades-list .curiosidade-item:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadePage {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes chakraText {
+  0% { opacity: 0; filter: blur(6px); transform: scale(0.9); }
+  60% { opacity: 1; filter: blur(0); transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.desction-personagem {
+  margin-left: 75px;
+}
+
+.gap {
+  gap: 25px;
+}
+
+.text-main-personagem {
+  width: 650px;
+}
+
+.container-text-main {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .text-main-personagem {
     width: 100%;
+  }
 }
 
-@media screen and (max-width: 600px){
-
-    .text-main-personagem{
-        width: 100%;
-    }
-
-}
-@media screen and (max-width: 750px){
-    main{
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 10px;
-        padding: 20px;
-    }
-    .desction-personagem{
-        margin: 0 auto;
-        margin-bottom: 35px;
-    }
+@media screen and (max-width: 750px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .desction-personagem {
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
 }

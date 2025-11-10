@@ -1,0 +1,165 @@
+.posts-section {
+  padding: 2rem 4rem;
+  margin-bottom: 100px;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.posts-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.4rem;
+  color: #ff8c28;
+  animation: chakraText 0.9s ease;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.post-card:hover::before {
+  opacity: 1;
+  filter: blur(7px);
+}
+
+.post-card:hover {
+  transform: translateY(-10px) scale(1.03) rotateX(3deg) rotateY(-3deg);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.14);
+}
+
+.thumb {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.post-card:hover .thumb img {
+  transform: scale(1.12);
+}
+
+.post-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #f3f3f3;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: #333;
+}
+
+.date {
+  margin-left: auto;
+  font-size: 12px;
+  color: #888;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #222;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.post-card:hover .post-title {
+  color: #ff8c28;
+  text-shadow: 0 0 6px rgba(255,140,40,0.45);
+  transform: translateX(3px);
+}
+
+.post-excerpt {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.clan {
+  font-size: 12px;
+  color: #666;
+}
+
+.read-btn {
+  background: linear-gradient(90deg,#ff8c28,#ffb36b);
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform .18s, box-shadow .25s;
+}
+
+.read-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(255, 140, 40, 0.45);
+}
+
+@keyframes chakraText {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1100px) {
+  .posts-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 700px) {
+  .posts-grid { grid-template-columns: 1fr; }
+}

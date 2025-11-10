@@ -6,29 +6,28 @@ import { apiFake } from '../../data/api-fake';
   standalone: true,
   imports: [],
   templateUrl: './card-contet.component.html',
-  styleUrl: './card-contet.component.css'
+  styleUrl: './card-contet.component.css',
 })
 export class CardContetComponent {
   @Input()
-  id:string = "";
-  title:string = "";
-  decription:string = "";
-  img_card:string = "";
-  idade:string = "";
-  altura:string = "";
-  peso:string = "";
-  tiposangue:string = "";
-  classificacao:string = "";
-  ocupacao:string = "";
-  cla:string = "";
-  familia:string = "";
+  id: any | string = '';
+  title: string = '';
+  decription: string = '';
+  img_card: string = '';
+  idade: string = '';
+  altura: string = '';
+  peso: string = '';
+  tiposangue: string = '';
+  classificacao: string = '';
+  ocupacao: string = '';
+  cla: string = '';
+  familia: string = '';
 
-  
   ngOnInit() {
     this.setcard(this.id);
   }
-  setcard(id:any) {
-    const data = apiFake.filter(x => x.id == id)[0];
+  setcard(id: any) {
+    const data = apiFake.filter((x) => x.id == id)[0];
     this.id = data.id;
     this.title = data.title;
     this.decription = data.description;

@@ -8,9 +8,8 @@ describe('NavigationBottomBarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NavigationBottomBarComponent]
-    })
-    .compileComponents();
+      imports: [NavigationBottomBarComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NavigationBottomBarComponent);
     component = fixture.componentInstance;

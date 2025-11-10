@@ -1,9 +1,9 @@
-.container{
-    max-width: 1920px;
-    margin: 25px auto 65px auto;
+.container {
+  max-width: 1920px;
+  margin: 45px auto 0 auto;
 }
-@media screen and (max-width: 600px){
-    app-footer{
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  app-footer {
+    display: none;
+  }
 }

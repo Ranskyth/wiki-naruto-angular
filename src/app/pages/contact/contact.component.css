@@ -1,0 +1,92 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+main{
+    margin-bottom: 100px;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  color: #ff8c28; /* Laranja Hokage */
+}
+
+p {
+  margin-bottom: 2rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+}
+
+label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+  background: #fafafa;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff8c28;
+  background: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  background: #ff8c28;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e6761f;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 1.8rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}

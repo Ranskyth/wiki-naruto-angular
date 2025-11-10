@@ -6,13 +6,13 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  @Input() 
-  link1:string = '';
   @Input()
-  link2:string = '';
+  link1: string = '';
   @Input()
-  link3:string = '';
+  link2: string = '';
+  @Input()
+  link3: string = '';
 }

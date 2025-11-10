@@ -1,11 +1,17 @@
 <div>
-    <div class="container_card">
-        <div class="container_img">
-            <a [routerLink]="'/content/'+id"><img src={{img_card}} alt="..."></a>
-        </div>
-        <div class="container_content">
-            <a [routerLink]="'/content/'+id"><h1>{{title}}</h1></a>
-            <a [routerLink]="'/content/'+id"><p>{{decription}}</p></a>
-        </div>
+  <div class="container_card">
+    <div class="container_img">
+      <a [routerLink]="'/content/' + id"
+        ><img src="{{ img_card }}" alt="..."
+      /></a>
     </div>
+    <div class="container_content">
+      <a [routerLink]="'/content/' + id"
+        ><h1>{{ title }}</h1></a
+      >
+      <a [routerLink]="'/content/' + id"
+        ><p>{{ decription }}</p></a
+      >
+    </div>
+  </div>
 </div>

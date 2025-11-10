@@ -5,8 +5,6 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './navigation-bottom-bar.component.html',
-  styleUrl: './navigation-bottom-bar.component.css'
+  styleUrl: './navigation-bottom-bar.component.css',
 })
-export class NavigationBottomBarComponent {
-
-}
+export class NavigationBottomBarComponent {}
