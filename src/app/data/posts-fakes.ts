@@ -29,7 +29,7 @@ export const fakePosts: Post[] = [
     excerpt: 'Uma visão técnica do Byakugan e das técnicas do Punho Gentil.',
     author: 'Hiashi Hyuga',
     date: '2025-09-12',
-    img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7dfa6b8b-2310-4b8d-8e23-51fdcd36a4b8/d8qo5ob-08259e68-0083-4142-bb84-fff83e8d113e.gif',
+    img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7dfa6b8b-2310-4b8d-8e23-51fdcd36a4b8/d8qo5ob-08259e68-0083-4142-bb84-fff83e8d113e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkZmE2YjhiLTIzMTAtNGI4ZC04ZTIzLTUxZmRjZDM2YTRiOFwvZDhxbzVvYi0wODI1OWU2OC0wMDgzLTQxNDItYmI4NC1mZmY4M2U4ZDExM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ki8Upmjnt3MgZlNyWSlOm_ujMN137ZOa2TEav2kaQUU',
     tags: ['Hyuga', 'Byakugan'],
     clan: 'Hyuga',
   },
