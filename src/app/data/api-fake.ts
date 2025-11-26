@@ -1041,7 +1041,7 @@ export const apiFake = [
     description:
       'Ino Yamanaka é uma ninja de Konoha especializada em técnicas de controle mental.',
     img_card:
-      'https://i.pinimg.com/originals/a5/a5/45/a5a545b63f6e69b4774934adf7998ff9.gif',
+      'https://media.tenor.com/CCPVnr36oc8AAAAM/naruto-sakura.gif',
     bibliografia: {
       intro:
         'Ino é uma das principais ninjas do time 10, amiga de Sakura e especializada em jutsu de controle mental.',
@@ -1074,7 +1074,7 @@ export const apiFake = [
     description:
       'Kiba Inuzuka é um ninja de Konoha especializado em técnicas de combate com animais, acompanhado de seu parceiro Akamaru.',
     img_card:
-      'https://i.pinimg.com/originals/d7/0a/ab/d70aab3e290351eeb7b10468ab0ae8d4.gif',
+      'https://i.pinimg.com/originals/b6/e7/1f/b6e71f1c8d90d0ae745759cfb0180c8f.gif',
     bibliografia: {
       intro:
         'Kiba é um ninja da vila de Konoha, conhecido por sua relação inseparável com seu cachorro Akamaru.',
@@ -1107,7 +1107,7 @@ export const apiFake = [
     description:
       'Shino Aburame é um ninja de Konoha que utiliza insetos como suas principais armas em combate.',
     img_card:
-      'https://i.pinimg.com/originals/6a/0d/3a/6a0d3a6e568eeb9f0f5a97cfd44a9c4b.gif',
+      'https://i.pinimg.com/originals/5b/20/c5/5b20c59842a1f5f3cca03192a74d2cd0.gif',
     bibliografia: {
       intro:
         'Shino é um membro do time 8 de Konoha, um ninja calmo e sério que usa insetos para lutar.',
@@ -1140,7 +1140,7 @@ export const apiFake = [
     description:
       'Tenten é uma ninja de Konoha, especializada em armas e técnicas de longo alcance.',
     img_card:
-      'https://i.pinimg.com/originals/7e/57/a6/7e57a670bd7a22652ff0725197b577ad.gif',
+      'https://i.pinimg.com/originals/fa/4c/40/fa4c40f51e3bf14b2e8bc702b2b2ef96.gif',
     bibliografia: {
       intro:
         'Tenten é uma das ninjas mais habilidosas de Konoha em manipular armas, sendo um membro do time 10.',
@@ -1173,7 +1173,7 @@ export const apiFake = [
     description:
       'Anko Mitarashi é uma ninja de Konoha e uma ex-aprendiz de Orochimaru.',
     img_card:
-      'https://i.pinimg.com/originals/0f/d2/6d/0fd26d7a87785b8b090c7895f648397d.gif',
+      'https://i.pinimg.com/originals/bb/91/b3/bb91b33dfb31701e19cb584901615faf.gif',
     bibliografia: {
       intro:
         'Anko foi uma discípula de Orochimaru, sendo marcada por ele com uma maldição.',
