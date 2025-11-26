@@ -1008,7 +1008,7 @@ export const apiFake = [
     description:
       'Iruka Umino é um instrutor ninja de Konoha, conhecido por ser um dos primeiros a acreditar em Naruto.',
     img_card:
-      'https://i.pinimg.com/originals/63/0d/69/630d69b03c31be9e16c58a9f90e06b9e.gif',
+      'https://64.media.tumblr.com/32d97d6a4a7fa4e1522e8b76610247a5/tumblr_olxnf6xiUi1v07xajo1_250.gif',
     bibliografia: {
       intro:
         'Iruka é um dos instrutores mais importantes para a formação de Naruto, ajudando a moldar sua determinação.',
